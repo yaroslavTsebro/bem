@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header__container {
+  display: flex;
+  min-height: 114px;
+  align-items: center;
+
+  @media (max-width: 991.98px) {
+    min-height: 80px;
+  }
+}
+
+.header__logo {}
+
+.header__button {
+  flex: 0 0 252px;
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: 991.98px) {
+    flex: 0 0 170px;
+  }
+}
