@@ -51,6 +51,38 @@ body {
   color: #EC5863;
 }
 
-.highlighted {
+.highlighted_blue {
   color: #587EEC;
+}
+
+.decor {
+  position: absolute;
+  background-color: #EC5863;
+  border-radius: 30px;
+}
+
+.decor_1 {
+  width: 147px;
+  height: 147px;
+}
+
+.decor_2 {
+  width: 127px;
+  height: 127px;
+}
+
+.decor_3 {
+  width: 97px;
+  height: 97px;
+}
+
+.decor_4 {
+  width: 77px;
+  height: 77px;
+}
+
+.decor_5 {
+  width: 66px;
+  height: 66px;
+  border-radius: 16px;
 }
