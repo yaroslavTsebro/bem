@@ -1,0 +1,29 @@
+.body-statictics-experts__item {
+  flex: 1 1 auto;
+  text-align: center;
+
+  @media (max-width: 479.98px) {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+}
+
+.body-statictics-experts__value {
+  color: #EC5863;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 5.04px;
+  margin-bottom: 5px;
+}
+
+.body-statictics-experts__text {
+  color: #000;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4.07px;
+  text-transform: uppercase;
+}
