@@ -1,0 +1,28 @@
+.text-block {}
+
+.text-block_center {
+  text-align: center;
+}
+
+.text-block__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 126%;
+
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.text-block__text {
+  color: #616161;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 138.5%;
+  letter-spacing: 0.98px;
+  margin-bottom: 24px;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
