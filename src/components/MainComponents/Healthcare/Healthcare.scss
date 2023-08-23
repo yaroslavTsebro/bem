@@ -1,0 +1,29 @@
+.healthcare {
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+
+.healthcare__container {}
+
+.healthcare__text-block .text-block__text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.healthcare__text-block {
+  margin-bottom: 45px;
+}
+
+.healthcare__items {
+  display: flex;
+  min-width: 908px;
+  margin: 0 auto;
+  gap: 72px;
+  @media (max-width: 991.98px) {
+    flex-direction: column;
+  }
+}
+
+.healthcare__item {
+  flex: 0 1 33.333%;
+}
